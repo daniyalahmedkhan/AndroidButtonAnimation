@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile"
+    android:background="#fff">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topLayout">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="25dp"
+            android:textColor="#0107B9"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topLayout"
+        android:layout_marginTop="20dp"
+        android:id="@+id/nameLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textSize="25dp"
+            android:textColor="#0107B9"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/heading_fullname"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textSize="15dp"
+            android:textColor="#0107B9"
+            android:fontFamily="serif"
+            android:layout_below="@+id/heading_fullname"
+            android:layout_marginTop="20dp"
+            android:id="@+id/name"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameLayout"
+        android:id="@+id/emaillayout"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textSize="25dp"
+            android:textColor="#0107B9"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/heading_email"/>
+
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading_email"
+            android:layout_marginTop="4dp"
+            android:fontFamily="serif"
+            android:text="Email Address"
+            android:textColor="#0107B9"
+            android:textSize="15dp" />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emaillayout"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="25dp"
+            android:textColor="#0107B9"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/heading_password"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="15dp"
+            android:textColor="#0107B9"
+            android:fontFamily="serif"
+            android:layout_below="@+id/heading_password"
+            android:layout_marginTop="20dp"
+            android:id="@+id/pass"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
